@@ -1,0 +1,268 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+button
+{
+    border-radius: 0;
+    background: black;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+button:hover
+{
+    background: #0075af;
+}
+/*Disable text-highlighting and copy n' paste*/
+body {
+  -webkit-user-select: none;
+     -moz-user-select: -moz-none;
+      -ms-user-select: none;
+          user-select: none;
+}
+#wrapper
+{
+    width: 600px;
+    margin: 0 auto;
+    border: 2px solid #777;
+    background: #eee;
+    position: relative;
+    cursor: default;
+}
+h1
+{
+    font-weight: 400;
+}
+h2
+{
+    position: absolute;
+    font-weight: 400;
+    width: 300px;
+    background: #9ab2be;
+    height: 35px;
+}
+#coinbox
+{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #777;
+    background: url('../images/coinbox.png') no-repeat;
+    background-size: 100% 100%; 
+    margin: 0 auto;
+    cursor: pointer;
+}
+#coinbox:hover
+{
+    background: url('../images/coinbox_click.png') no-repeat;
+    background-size: 100% 100%;
+}
+#coinbox p
+{
+    margin-top: 35px;
+    font-weight: 100;
+}
+#info
+{
+    width: 100%;
+    height: 50px;
+    margin-top: : 5px;
+    background: white;
+    font-weight: 300;
+    position: relative;
+    z-index: 5;
+}
+.info
+{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.info p
+{
+    padding-top: 15px;
+    padding-left: 10px;
+    text-align: left;
+}
+.Coin
+{
+    background: url('../images/Coin.png');
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: -15px -10px;
+}
+/*.info img
+{
+    width: 30px;
+    height: 30px;
+    float: left;
+}*/
+.infoDescription
+{
+    background: #eee;
+    width: 87%;
+    height: 110px;
+    padding: 5px 10px;
+    margin-top: 17px;
+    color: gray;
+}
+.upgrades-achievements
+{
+    width: 300px;
+    height: 300px;
+    overflow: auto;
+    overflow-x: hidden;
+    background: gray;
+    float: left;
+}
+.upgrade
+{
+    width: 100%;
+    float: left;
+    height: 45px;
+    background: #1f91c1;
+    border-bottom: 3px solid #176d8d;
+    cursor: pointer;
+    color: white;
+}
+.upgrade:hover
+{
+    background: #3daddb;
+}
+.upgrade p
+{
+    text-align: left;
+    margin-left: 5px;
+    float: left;
+}
+.upgrade p:nth-child(3)
+{
+    color: lightgray;
+    font-size: .8em;
+}
+.howMany
+{
+    float: right;
+    margin-right: 20px;
+}
+#spacer
+{
+    height: 35px;
+}
+.colorpick
+{
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-top: 8px;
+    border: 2px solid #91daff;
+}
+.currentcolor
+{
+    border: 2px solid "gray";
+}
+#announcebox
+{
+    position: absolute;
+    top: 40px;
+    left: 360px;
+    width: 233px;
+    height: 90px;
+    overflow: auto;
+    overflow-x: hidden;
+    color: gray;
+}
+#achievementbox
+{
+    position: relative;
+    height: 25px;
+    overflow: hidden;
+    background: #eee;
+    width: 150px;
+    margin: 0 auto;
+}
+.achievement
+{
+    width: 32.333333%;
+    float: left;
+    height: 90px;
+    background: #5c5b5b;
+    background-image: url("../images/trophy.png");
+    background-size: 100% 100%;
+    border-right: 3px solid #3b3b3b;
+    border-bottom: 3px solid #3b3b3b;
+    cursor: pointer;
+    color: white;
+    font-size: .9em;
+}
+.achievement:hover
+{
+    background-color: #454444;
+}
+.achievement p
+{
+    float: left;
+    padding-left: 5px;
+    padding-top: 10px;
+    background: rgba(150, 150, 150, 0.7);
+    height: 90%;
+}
+#achievementbox img
+{
+    float: left;
+    height: inherit;
+    width: 25px;
+}
+#achievementGet
+{
+    position: relative;
+    left: 50px;
+    top: 30px;
+    height: 200px;
+    width: 200px;
+    background: rgba(50, 50, 50, 0.5);
+    background-image: url(../images/trophy.png);
+    background-size: 100% 100%;
+    border: 5px solid black;
+    border-radius: 50px;
+}
+#topten
+{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 25;
+    width: 300px;
+    height: 400px;
+    background: #9ab2be;
+    border: 2px solid gray;
+    cursor: default;
+}
+#topten h2
+{
+    width: 100%;
+    height: 40px;
+    background: #eee;
+    box-shadow: 0 5px 5px gray;
+}
+#topten div
+{
+    width: 100%;
+    height: 100%;
+    background: gray;
+}
+.earnedTrophy
+{
+    background-color: #e5cb47;
+    border-right: 3px solid #bfaa38;
+    border-bottom: 3px solid #bfaa38;
+}
+.earnedTrophy:hover
+{
+    background-color: #ceb641;
+}
